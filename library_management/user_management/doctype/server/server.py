@@ -57,18 +57,18 @@ class Server(Document):
 	# 	for d in doc:
 	# 		frappe.msgprint(_("The Parent First Name is {} and age is {}").format(d.first_name, d.age))
 
-	def validate(self):
-		self.sql()
+	# def validate(self):
+	# 	self.sql()
 
-	def sql(self):
+	# def sql(self):
 
-		data = frappe.db.sql("""
-								SELECT 
-									first_name,
-									age
-								FROM
-									`tabClient Side Scripting`
+	# 	data = frappe.db.sql("""
+	# 							SELECT 
+	# 								first_name,
+	# 								age
+	# 							FROM
+	# 								`tabClient Side Scripting`
 								
-							""", as_dict=1)
-		for d in data:
-			frappe.msgprint(_("The Parent First Name is {} and age is {}").format(d.first_name, d.age))
+	# 						""", as_dict=1)
+	# 	for d in data:
+	# 		frappe.msgprint(_("The Parent First Name is {} and age is {}").format(d.first_name, d.age))
