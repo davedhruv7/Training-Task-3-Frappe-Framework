@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-03 16:42:24.630155",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "area_1",
+  "area_2",
+  "area_3",
+  "area_3_copy",
+  "area_3_copy_copy",
+  "area_3_copy_copy_copy",
+  "area_3_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy_copy_copy_copy_copy",
+  "area_3_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy"
+ ],
+ "fields": [
+  {
+   "fieldname": "area_1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Area 1"
+  },
+  {
+   "fieldname": "area_2",
+   "fieldtype": "Data",
+   "label": "Area 2"
+  },
+  {
+   "fieldname": "area_3",
+   "fieldtype": "Data",
+   "label": "Area 3"
+  },
+  {
+   "fieldname": "area_3_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy Copy Copy Copy Copy"
+  },
+  {
+   "fieldname": "area_3_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy",
+   "fieldtype": "Data",
+   "label": "Area 3 Copy Copy Copy Copy Copy Copy Copy Copy Copy Copy"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-04 19:38:34.290709",
+ "modified_by": "Administrator",
+ "module": "User Management",
+ "name": "Family",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

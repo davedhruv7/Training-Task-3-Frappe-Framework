@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-31 18:02:06.033010",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ratings_section",
+  "story",
+  "author",
+  "quality"
+ ],
+ "fields": [
+  {
+   "fieldname": "ratings_section",
+   "fieldtype": "Section Break",
+   "label": "Ratings"
+  },
+  {
+   "fieldname": "story",
+   "fieldtype": "Data",
+   "label": "for Story"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "for Author"
+  },
+  {
+   "fieldname": "quality",
+   "fieldtype": "Data",
+   "label": "for Quality"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-31 18:06:06.026700",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Child Doc",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
