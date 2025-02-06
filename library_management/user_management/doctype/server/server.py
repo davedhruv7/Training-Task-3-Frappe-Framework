@@ -8,6 +8,7 @@ from frappe import _
 
 
 class Server(Document):
+    pass
 	# def validate(self):
 	# 	frappe.msgprint("Hello Frappe")
 
