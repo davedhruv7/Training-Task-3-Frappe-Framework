@@ -137,13 +137,18 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"*": {
+		"on_update": "method",
+		"on_cancel": "method",
+		"on_trash": "method"
+	},
+
+    "Article":{
+        'validate':'library_management.library_management.doctype.article.events.send_sms',
+        'validate':'library_management.library_management.doctype.article.events.validate',
+    }
+}
 
 # Scheduled Tasks
 # ---------------
