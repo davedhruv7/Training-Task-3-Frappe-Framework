@@ -2,65 +2,46 @@
  "actions": [],
  "allow_guest_to_view": 1,
  "allow_rename": 1,
- "autoname": ".####",
- "creation": "2025-01-31 12:03:50.838127",
+ "autoname": "Member-.####",
+ "creation": "2025-02-17 11:46:49.892038",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "library",
-  "artical_name",
-  "image",
-  "author",
-  "description",
-  "isbn",
-  "status",
-  "publisher",
+  "first_name",
+  "last_name",
+  "full_name",
+  "email",
+  "phone",
   "route",
   "published"
  ],
  "fields": [
   {
-   "fieldname": "library",
-   "fieldtype": "Section Break",
-   "label": "Library"
-  },
-  {
-   "fieldname": "artical_name",
+   "fieldname": "first_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Artical Name",
-   "unique": 1
+   "label": "First Name",
+   "reqd": 1
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Attach Image",
-   "label": "Image"
-  },
-  {
-   "fieldname": "author",
+   "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Author"
+   "label": "Last Name"
   },
   {
-   "fieldname": "description",
-   "fieldtype": "Text Editor",
-   "label": "Description"
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "label": "Full Name"
   },
   {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "Issued\nAvailable"
-  },
-  {
-   "fieldname": "publisher",
+   "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Publisher"
+   "label": "Email"
   },
   {
-   "fieldname": "isbn",
+   "fieldname": "phone",
    "fieldtype": "Data",
-   "label": "ISBN"
+   "label": "Phone"
   },
   {
    "fieldname": "route",
@@ -78,10 +59,10 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2025-02-17 14:56:55.635546",
+ "modified": "2025-02-17 14:08:04.741845",
  "modified_by": "Administrator",
  "module": "Library Management",
- "name": "Article",
+ "name": "Library Member",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
@@ -98,7 +79,7 @@
    "write": 1
   }
  ],
- "route": "articals",
+ "route": "member",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
