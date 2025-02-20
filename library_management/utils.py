@@ -35,5 +35,6 @@ def fetch_server_names():
     """
     # frappe.db.get_list is aliased as frappe.get_list as well.
     # Using pluck='name' returns just a list of names.
-    server_names = frappe.db.get_list("Server", pluck="name")
+    # server_names = frappe.db.get_list("Server", pluck="name")
+    server_names = frappe.db.get_list("Server", fields=["*"])
     return server_names
