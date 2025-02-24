@@ -1,0 +1,13 @@
+{
+  "name": "my-page",
+  "label": "My Page",
+  "type": "page",
+  "route": "my-page",
+  "icon": "octicon octicon-dashboard",
+  "description": "A custom page for my app",
+  "roles": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ def get_public_tasks():
 import frappe
 import requests
 
-@frappe.whitelist()
+@frappe.whitelist(allow_guest=True)
 def fetch_users():
     base_url = frappe.utils.get_url()  # e.g., http://127.0.0.1:8000
     headers = {
